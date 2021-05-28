@@ -4,24 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>High Scores</title>
+    <title>Click Counter</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
 
   <body>
     <div class="container">
-        <div class="home">
+        <div id="home">
             <h2>Top score's</h2><a href="./hscore.html">View high scores</a>
-        
+        </div>
       <h1>Time: <span id="count">0</span></h1>
+      <div class="container">
+        <button id="decrement">Start Quiz</button>
+        <button id="increment">Increment</button>
       </div>
-      <div class="display">
-          <h1>Your Score</h1>
-          <a href="index.html" class="btn">Start again</a>
-          <button class="btn">Reset score</button>
-      </div>  
-        
-      
     </div>
     <script src="./assets/js/script.js"></script>
   </body>
