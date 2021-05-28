@@ -1,4 +1,46 @@
+:root {
+     --index-bg-color: rgb(235, 237, 241);
+}
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
-  
+  body {
+    background-color: var(--index-bg-color);
+  }
+  /** Header style **/
+  .header {
+      display: flex;
+      justify-content:space-between;
+      flex-wrap: wrap;
+  }
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    font-family:'Times New Roman',Georgia, 'Times New Roman', Times, serif;
+    color:#afb3b3;
+    margin: 10px 10px 15px;
+    text-align: right;
+}
+header a {
+    text-decoration: none;
+    margin: 10px 20px 15px 15px;
+}
+
+.hiddenTeme {
+    display: none;
+}
+/** styling button **/
+.btn {
+    font-size: 16px;
+    padding: 5px 0;
+    width: 180px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(11, 11, 128);
+    border-radius: 3px;
+
+}
