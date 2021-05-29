@@ -4,21 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Click Counter</title>
+    <title>My Quiz</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
 
   <body>
-    <div class="container">
-        <div id="home">
-            <h2>Top score's</h2><a href="./hscore.html">View high scores</a>
-        </div>
-      <h1>Time: <span id="count">0</span></h1>
+      <header>
+        <a href="./hscore.html" class="highScore">View high scores</a>
+        Time: <span id="count">0</span>
+      </header>
+
+     
       <div class="container">
-        <button id="decrement">Start Quiz</button>
-        <button id="increment">Increment</button>
+          <div id="myQuiz" >
+            <h1> Welcome to JavaScript quiz</h1>
+                <p class="quizP"> You have two minutes to complete the quiz, 
+                    for every incorrect answer you will lose 5 seconds.</br>
+              Good Luck !!!
+                 </p>
+                 
+             <a href="./myquiz.html" class="startBtn">Start Quiz</a>
+        </div>
+          
+        
       </div>
-    </div>
+    
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
