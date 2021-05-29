@@ -10,16 +10,46 @@
 
   <body>
     <header>
-        <a href="./hscore.html" class="highScore">View high scores</a>
-        Time: <span id="count">0</span>
+        <div>
+            <a href="./hscore.html" class="highScore">View high scores</a>
+        </div>
+        <div>
+            <p>Score:</p>
+            <h3 class="score-text" id="score">
+                0
+            </h3>
+        </div>
+        <div>
+            Time: <span id="count">0</span>
+        </div>
+        
       </header>
 
-     
+     <!-- placeholder for Q/A -->
       <div class="container">
+        
+         <div id="question"> start with questions here ????</div>
+         <div class="answer-container">
+             <p class="question-num">1.</p>
+             <p class="answers-text" a-num="1">answer 1</p>
+         </div>
+
+         <div class="answer-container">
+             <p class="question-num">2.</p>
+             <p class="answers-text" a-num="2">answer 2</p>
+         </div>
+        
+         <div class="answer-container">
+             <p class="question-num">3.</p>
+             <p class="answers-text" a-num="3">answer 3</p>
+         </div>
          
-          
+         <div class="answer-container">
+             <p class="question-num">4.</p>
+             <p class="answers-text" a-num="4">answer 4</p>
+         </div> 
         
       </div>
-    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/myQuiz.js"></script>
   </body>
 </html>
