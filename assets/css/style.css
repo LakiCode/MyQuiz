@@ -19,7 +19,6 @@
   header h1 {
     font-weight: bold;
     font-size: 36px;
-    font-family:'Times New Roman',Georgia, 'Times New Roman', Times, serif;
     color:#afb3b3;
     margin: 10px 10px 15px;
     text-align: right;
@@ -28,27 +27,52 @@ header a {
     text-decoration: none;
     margin: 10px 20px 15px 15px;
 }
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.quizP {
+    width: 400px;
+}
 .container {
     background-color: turquoise;
+    width: 700px;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin:  50px auto;
+    border-radius: 15px;
+    border: 5px solid white;
 }
 
 .hiddenTeme {
     display: none;
 }
 /** styling button **/
-.btn {
+.startBtn {
     font-size: 16px;
-    padding: 5px 0;
-    width: 250px;
+  /*  padding: 5px 0; */
+    width: 50px;
     text-align: center;
     text-decoration: none;
     color: white;
     background-color: rgb(110, 110, 119);
     border-radius: 3px;
+    margin: 0 ;
+    position: relative;
+    top: 50%;
+    left: 30%;
+    padding: 15px 35px;
 
 }
-.btn:hover {
+.startBtn:hover {
     color: rgb(233, 6, 6);
-    background-color: rgb(11, 11, 128);
+
     cursor: pointer;
 }
