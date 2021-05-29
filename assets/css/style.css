@@ -28,6 +28,9 @@ header a {
     text-decoration: none;
     margin: 10px 20px 15px 15px;
 }
+.container {
+    background-color: turquoise;
+}
 
 .hiddenTeme {
     display: none;
@@ -36,11 +39,16 @@ header a {
 .btn {
     font-size: 16px;
     padding: 5px 0;
-    width: 180px;
+    width: 250px;
     text-align: center;
     text-decoration: none;
     color: white;
-    background-color: rgb(11, 11, 128);
+    background-color: rgb(110, 110, 119);
     border-radius: 3px;
 
+}
+.btn:hover {
+    color: rgb(233, 6, 6);
+    background-color: rgb(11, 11, 128);
+    cursor: pointer;
 }
