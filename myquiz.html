@@ -8,26 +8,63 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
 
-  <body>
-    <header>
-        <div>
-            <a href="./hscore.html" class="highScore">View high scores</a>
+  <body onload="count()">
+    <div class="container">
+        <div class="quiz-header">
+            <h3 class="quiz-header-info"><a href="./hscore.html">View high scores</a></h3>
+            <h3 class="quiz-header-info">Score: <id="score">0</id></h3>
+            <h3 class="quiz-header-info">Time: <id="timer>0</id></h3>
         </div>
-        <div>
-            <p>Score:</p>
-            <h3 class="score-text" id="score">
-                0
-            </h3>
+        <div class="quiz-main">
+            <div id="question"> start with questions here ????</div>
+            <div class="answer-container">
+                <p class="question-num">1.</p>
+                <p class="answers-text" a-num="1">answer 1</p>
+            </div>
+   
+            <div class="answer-container">
+                <p class="question-num">2.</p>
+                <p class="answers-text" a-num="2">answer 2</p>
+            </div>
+           
+            <div class="answer-container">
+                <p class="question-num">3.</p>
+                <p class="answers-text" a-num="3">answer 3</p>
+            </div>
+            
+            <div class="answer-container">
+                <p class="question-num">4.</p>
+                <p class="answers-text" a-num="4">answer 4</p>
+            </div> 
         </div>
-        <div>
-            Time: <span id="count">0</span>
+        <div class="quiz-footer">
+            <div class="hsBtn">
+                <a href="./Index.html"><button class="btn">Start again</button></a>
+                <button class="btn" id="resetScore">Reset score</button>
+            </div>    
         </div>
-        
-      </header>
+    </div>
 
-     <!-- placeholder for Q/A -->
-      <div class="container">
         
+      
+
+     <!-- placeholder for Q/A 
+      <div class="container">
+          <div class="quiz-info">
+            <div>
+                <a href="./hscore.html" class="highScore">View high scores</a>
+            </div>
+            <div>
+                <p>Score:</p>
+                <h3 class="score-text" id="score">
+                    0
+                </h3>
+            </div>
+            <div>
+                Time: <span id="count">0</span>
+            </div>
+          </div>
+        <div id="quizQA" class="flex-colunm">
          <div id="question"> start with questions here ????</div>
          <div class="answer-container">
              <p class="question-num">1.</p>
@@ -48,8 +85,11 @@
              <p class="question-num">4.</p>
              <p class="answers-text" a-num="4">answer 4</p>
          </div> 
-        
+        </div> 
       </div>
+-->
+
     <script src="./assets/js/myQuiz.js"></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
