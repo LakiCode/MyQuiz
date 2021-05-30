@@ -83,3 +83,23 @@ body {
     height: 35px;
     width: 175px;
 }
+/** Quiz question stylinhg */
+.queText {
+    font-size: 25px;
+    font-weight: 600;
+}
+.answer-container {
+     display: block;
+     padding: 20px 0;
+}
+.anwBtn {
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    background-color: var(--cont-bg-color);
+    border: 1px solid white;
+    border-radius: 6px;
+    width: 200px;
+    padding: 5px 15px;
+    margin-bottom: 6px;
+}
